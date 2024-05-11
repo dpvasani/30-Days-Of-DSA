@@ -578,28 +578,376 @@ int main() {
   //         4 5 6 7 6 5 4
   //       5 6 7 8 9 8 7 6 5
 
-  int n;
-  cin >> n;
+  // int n;
+  // cin >> n;
 
-  for (int row = 0; row < n; row++) {
-    // Spaces
-    for (int col = 0; col < n - row - 1; col++) {
-      cout << " ";
-    }
+  // for (int row = 0; row < n; row++) {
+  //   // Spaces
+  //   for (int col = 0; col < n - row - 1; col++) {
+  //     cout << " ";
+  //   }
 
-    // Number
-    for (int col = 0; col < row + 1; col = col + 1) {
-      cout << row + col + 1;
-    }
+  //   // Number
+  //   for (int col = 0; col < row + 1; col = col + 1) {
+  //     cout << row + col + 1;
+  //   }
 
-    // Reverse Counting
-    int start = 2 * row;
-    for (int col = 0; col < row; col++) {
-      cout << start;
-      start = start - 1;
-    }
-    cout << endl;
-  }
+  //   // Reverse Counting
+  //   int start = 2 * row;
+  //   for (int col = 0; col < row; col++) {
+  //     cout << start;
+  //     start = start - 1;
+  //   }
+  //   cout << endl;
+  // }
+
+  // Pattern 22 : Numeric Hollow Pyramid
+  //          1
+  //         1 2
+  //        1   3
+  //       1      4
+  //      1  2 3 4 5
+
+  // int n;
+  // cin >> n;
+  // for (int row = 0; row < n; row++) {
+  //   // Space
+  //   for (int col = 0; col < n - row - 1; col++) {
+  //     cout << " ";
+  //   }
+  //   // Number  With Spaces In Between
+  //   int start = 1;
+  //   for (int col = 0; col < 2 * row + 1; col++) {
+  //     // First Row Or Last Row
+  //     if (row == 0 || row == n - 1) {
+  //       if (col % 2 == 0) {
+  //         cout << start;
+  //         start++;
+  //       } else {
+  //         // Space Odd
+  //         cout << " ";
+  //       }
+  //     } else {
+  //       // First And Last Col
+  //       if (col == 0) {
+  //         cout << 1;
+  //       } else if (col == 2 * row) {
+  //         cout << row + 1;
+  //       } else {
+  //         cout << " ";
+  //       }
+  //     }
+  //   }
+  //   cout << endl;
+  // }
+
+  // Pattern 23 : Numeric Hollow Harlf Pyramid
+  // 1
+  // 1 2
+  // 1   3
+  // 1     4
+  // 1 2 3 4 5
+
+  // int n;
+  // cin >> n;
+  // for (int row = 0; row < n; row++) {
+
+  //   // Number  With Spaces In Between
+  //   int start = 1;
+  //   for (int col = 0; col < 2 * row + 1; col++) {
+  //     // First Row Or Last Row
+  //     if (row == 0 || row == n - 1) {
+  //       if (col % 2 == 0) {
+  //         cout << start;
+  //         start++;
+  //       } else {
+  //         // Space Odd
+  //         cout << " ";
+  //       }
+  //     } else {
+  //       // First And Last Col
+  //       if (col == 0) {
+  //         cout << 1;
+  //       } else if (col == 2 * row) {
+  //         cout << row + 1;
+  //       } else {
+  //         cout << " ";
+  //       }
+  //     }
+  //   }
+  //   cout << endl;
+  // }
+
+  // Method 2
+  // int n;
+  // cin >> n;
+  // for (int row = 0; row < n; row++) {
+  //   for (int col = 0; col <= row; col++) {
+  //     if (col == 0 || col == row || row == n - 1) {
+  //       cout << col + 1;
+  //     } else {
+  //       cout << " ";
+  //     }
+  //   }
+  //   cout << endl;
+  // }
+
+  // Pattern 24 : Numeric Hollow Inverted Half Pyramid
+  // 1 2 3 4 5
+  // 2     5
+  // 3    5
+  // 4   5
+  // 5 5
+
+  // int n;
+  // cin >> n;
+  // for (int i = 0; i < n; i++) {
+  //   for (int j = i + 1; j <= n; j++) {
+  //     if (j == i + 1 || j == n || i == 0) {
+  //       cout << j;
+  //     } else {
+  //       cout << " ";
+  //     }
+  //   }
+  //   cout << endl;
+  // }
+
+  // Pattern 25 : Numeric Palindrome Equilateral Pyramid
+
+  //          1
+  //         121
+  //        12321
+  //       1234321
+  //      123454321
+
+  // int n;
+  // cin>>n;
+  // for (int i = 1; i <= n; ++i) {
+  //     // Print spaces to align the numbers to the right
+  //     for (int j = 1; j <= n - i; ++j) {
+  //         cout << " ";
+  //     }
+
+  //     // Print the first half of the numbers in ascending order
+  //     for (int j = 1; j <= i; ++j) {
+  //         cout << j;
+  //     }
+
+  //     // Print the second half of the numbers in descending order
+  //     for (int j = i - 1; j >= 1; --j) {
+  //         cout << j;
+  //     }
+
+  //     cout << endl;
+  // }
+
+  // Pattern 26 : Solid Half Dimond
+  // *
+  // * *
+  // * * *
+  // * * * *
+  // * * * * *
+  // * * * *
+  // * * *
+  // * *
+  // *
+
+  // i 2n-1
+  // j= n-1
+  // int row;
+  // cin >> row;
+  // for (int i = 1; i <= rows; i++) {
+  //   // Loop to print '*' in each row
+  //   for (int j = 1; j <= i; j++) {
+  //     cout << "* ";
+  //   }
+  //   cout << endl;
+  // }
+  // // Loop to print remaining rows in reverse order
+  // for (int i = rows - 1; i >= 1; i--) {
+  //   // Loop to print '*' in each row
+  //   for (int j = 1; j <= i; j++) {
+  //     cout << "* ";
+  //   }
+  //   cout << endl;
+  // }
+
+  // int n;
+  // cin >> n;
+  // for (int i = 0; i < 2 * n - 1; i++) {
+  //   int cond = 0;
+  //   if (i < n) {
+  //     // Growing Phase Of Dimond
+  //     cond = i;
+  //   } else {
+  //     // Shrinking Phase Of Dimond
+  //     cond = n - (i % n) - 2;
+  //   }
+  //   for (int j = 0; j <= cond; j++) {
+  //     cout << "* ";
+  //   }
+  //   cout << endl;
+  // }
+
+  // Pattern 27 : Fancy Pattern #2
+  // ********1********
+  // *******2*2*******
+  // ******3*3*3******
+  // *****4*4*4*4*****
+  // ****5*5*5*5*5****
+  // ***6*6*6*6*6*6***
+  // **7*7*7*7*7*7*7**
+  // *8*8*8*8*8*8*8*8*
+
+  // Specific Pattern Work Till N = 9
+
+  // int n;
+  // cin >> n;
+  // for (int i = 0; i < n; i++) {
+  //   int start = 8 - i;
+  //   int num = i + 1;
+  //   int count_num = num;
+  //   for (int j = 0; j < 17; j++) {
+  //     if (j == start && count_num > 0) {
+  //       cout << num;
+  //       start += 2;
+  //       count_num--;
+  //     } else {
+  //       cout << "*";
+  //     }
+  //   }
+  //   cout << endl;
+  // }
+
+  // Pattern 28 : Fency Pattern #3
+
+  // 1
+  // 2*3
+  // 4*5*6
+  // 7*8*9*10
+  // 7*8*9*10
+  // 4*5*6
+  // 2*3
+  // 1
+
+  // int n;
+  // cin >> n;
+  // int c = 1;
+  // for (int i = 0; i < n; i++) {
+  //   for (int j = 0; j < i + 1; j++) {
+  //     cout << c;
+  //     c++;
+  //     if (j < i) {
+  //       cout << "*";
+  //     }
+  //   }
+  //   cout << endl;
+  // }
+  // // Shrinking Phase
+  // int start = c - n;
+  // for (int i = 0; i < n; i++) {
+  //   int k = start;
+  //   for (int j = 0; j <= n - i - 1; j++) {
+  //     cout << k;
+  //     k++;
+  //     if (j < n - i - 1) { // corrected the condition
+  //       cout << "*";
+  //     }
+  //   }
+  //   start = k;
+  //   cout << endl;
+  // }
+
+  // Pattern 29 : Fency Pattren #4
+
+  // 1
+  // 121
+  // 12321
+  // 121
+  // 1
+
+  // int n;
+  // cin >> n;
+  // for (int i = 0; i < n; i++) {
+  //   int cond = i <= n / 2 ? 2 * i : 2 * (n - i - 1);
+  //   for (int j = 0; j <= cond; j++) {
+  //     if (j <= cond / 2) {
+  //       cout << j + 1;
+  //     } else {
+  //       cout << cond - j + 1;
+  //     }
+  //   }
+  //   cout << endl;
+  // }
+
+  // Patter 30 : Floyd's triangle
+
+  // 1
+  // 2 3
+  // 4 5 6
+  // 7 8 9 10
+  // 11 12 13 14 15
+  // 16 17 18 19 20 21
+  // 22 23 24 25 26 27 28
+
+  // int n;
+  // cin >> n;
+  // int c = 1;
+  // for (int i = 0; i < n; i++) {
+  //   for (int j = 0; j <= i; j++) {
+  //     cout << c << " ";
+  //     c++;
+  //   }
+  //   cout << endl;
+  // }
+
+  // Pattern 31 : Pascal's Triangle
+  // 1
+  // 1 1
+  // 1 2 1
+  // 1 3 3 1
+  // 1 4 6 4 1
+  // 1 5 10 10 5 1
+  // int n;
+  // cin >> n;
+  // for (int i = 1; i <= n; i++) {
+  //   int C = 1;
+  //   for (int j = 1; j <= i; j++) {
+  //     cout << C << " ";
+  //     C = C * (i - j) / j;
+  //   }
+  //   cout << endl;
+  // }
+
+  // Pattern 32 : Butterfly Pattern
+  // *        *
+  // **      **
+  // ***    ***
+  // ****  ****
+  // **********
+  // **********
+  // ****  ****
+  // ***    ***
+  // **      **
+  // *        *
+
+  // int n;
+  // cin >> n;
+  // for (int i = 0; i < 2 * n; i++) {
+  //   int cond = i < n ? i : n + (n - i - 1);
+  //   int space_count = i < n ? 2 * (n - cond - 1) : i - cond - 1;
+  //   for (int j = 0; j < 2 * n; j++) {
+  //     if (j <= cond) {
+  //       cout << "*";
+  //     } else if (space_count > 0) {
+  //       cout << " ";
+  //       space_count--;
+  //     } else {
+  //       cout << "*";
+  //     }
+  //   }
+  //   cout << endl;
+  // }
 
   return 0;
 }
