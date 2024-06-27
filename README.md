@@ -1,7 +1,3 @@
-Here's a README file in table format for your GitHub repository, including emojis and day-wise questions:
-
----
-
 # 100 Days of DSA 🚀
 
 Welcome to my 100 Days of Data Structures and Algorithms series! Follow my journey as I solve various DSA problems day by day. Each day's progress is documented below with links to the solutions.
@@ -16,5 +12,3 @@ Welcome to my 100 Days of Data Structures and Algorithms series! Follow my journ
 | 6    | Matrix Manipulations |  | [Find the Duplicate Number](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/287.%20Find%20the%20Duplicate%20Number.cpp)<br>[Spiral Matrix (LeetCode)](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/54.%20Spiral%20Matrix%20LeetCode.cpp)<br>[Sort Colors](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/75.%20Sort%20Colors.cpp)<br>[Add Two Numbers Represented By Two Arrays (String Method)](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/Add%20Two%20Numbers%20Represented%20By%20Two%20Arrays%20String%20Method.cpp)<br>[Add Two Numbers Represented By Two Arrays](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/Add%20Two%20Numbers%20Represented%20By%20Two%20Arrays.cpp)<br>[Common Element In 3 Sorted Arrays](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/Common%20Element%20In%203%20Sorted%20Array.cpp)<br>[Factorial Of Large Number](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/Factorial%20Of%20Large%20Number.cpp)<br>[Find First Repeating Element (GFG)](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/Find%20First%20Repeating%20Element%20GFG.cpp)<br>[Min Max In 2D Array](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/Min%20Max%20In%202D%20Array.cpp)<br>[Missing Element From An Array With Duplicate](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/Missing%20Element%20From%20An%20Array%20With%20Duplicate.cpp)<br>[Move Negative Array](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/Move%20Negative%20Array.cpp)<br>[Row Sum](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/Row%20Sum.cpp)<br>[Search In 2D Array](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/Search%20In%202D%20Array.cpp)<br>[Transpose Of Matrix](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/Transpose%20Of%20Matrix.cpp)<br>[Wave Print Of Array (Column-Wise)](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/Wave%20Print%20Of%20Array%20ColWise.cpp)<br>[Wave Print Of Array (Row-Wise)](https://github.com/dpvasani/100-Days-Of-DSA/blob/main/Day%206/Wave%20Print%20Of%20Array%20RowWise.cpp) |
 
 ---
-
-Feel free to add more details or customize it further!
