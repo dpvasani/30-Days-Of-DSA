@@ -1,4 +1,4 @@
-# 100 Days of DSA 🚀
+# 30 Days of DSA 🚀
 
 Welcome to my 100 Days of Data Structures and Algorithms series! Follow my journey as I solve various DSA problems day by day. Each day's progress is documented below with links to the solutions.
 
