@@ -35,7 +35,6 @@ While getting back, keep on unmarking the visited array for the respective direc
 
 ![image](image_7.png)
 
-`
 
 ```cpp
 #include <iostream>
