@@ -1,3 +1,6 @@
+Here's the corrected version of your README file:
+
+---
 
 ![image](image.png)
 
@@ -5,36 +8,37 @@
 
 ### Recursive Tree
 ![image](image_2.png)
-#### For  “DDRDRR” :
+#### For “DDRDRR” :
 ![image](image_3.png)
 ![image](image_4.png)
 ![image](image_5.png)
 ![image](image_6.png)
 
-#### Time Complexity: 
+#### Time Complexity:
 O(4^(m*n)), because on every cell we need to try 4 different directions.
 
-#### Space Complexity:  
-O(m*n), Maximum Depth of the recursion tree(auxiliary space).
+#### Space Complexity:
+O(m*n), Maximum Depth of the recursion tree (auxiliary space).
 
 ### Approach:
 
-Start at the source(0,0) with an empty string and try every possible path i.e upwards(U), downwards(D), leftwards(L) and rightwards(R).
+Start at the source `(0,0)` with an empty string and try every possible path, i.e., upwards (U), downwards (D), leftwards (L), and rightwards (R).
 
-As the answer should be in lexicographical order so it's better to try the directions in lexicographical order i.e (D,L,R,U)
+As the answer should be in lexicographical order, it’s better to try the directions in lexicographical order: (D, L, R, U).
 
-Declare a 2D-array named visited because the question states that a single cell should be included only once in the path,so it's important to keep track of the visited cells in a particular path.
+Declare a 2D array named `visited` because the question states that a single cell should be included only once in the path, so it’s important to keep track of the visited cells in a particular path.
 
-If a cell is in path, mark it in the visited array.
+If a cell is in the path, mark it in the visited array.
 
-Also keep a check of the “out of bound” conditions while going in a particular direction in the matrix. 
+Also, keep a check on “out of bound” conditions while going in a particular direction in the matrix.
 
-Whenever you reach the destination(n,n) it's very important to get back as shown in the recursion tree.
+Whenever you reach the destination `(n,n)`, it’s very important to get back as shown in the recursion tree.
 
-While getting back, keep on unmarking the visited array for the respective direction.Also check whether there is a different path possible while getting back and if yes, then mark that cell in the visited array.
+While getting back, keep unmarking the visited array for the respective direction. Also, check whether there is a different path possible while getting back and, if yes, then mark that cell in the visited array.
 
 ![image](image_7.png)
 
+### Code 1
 
 ```cpp
 #include <iostream>
@@ -112,8 +116,8 @@ int main() {
     return 0;
 }
 ```
-### Code 2
 
+### Code 2
 
 ```cpp
 #include <iostream>
@@ -183,8 +187,8 @@ int main() {
 ![RaInAMaze](RaInAMaze.jpg)
 ### Explanation
 
-1. **Purpose**: 
-   - This line of code initializes a 2D vector named `visited` with dimensions `row x col`. 
+1. **Purpose**:
+   - This line of code initializes a 2D vector named `visited` with dimensions `row x col`.
    - Each element in this 2D vector is of type `bool` and is initially set to `false`.
 
 2. **Syntax Breakdown**:
@@ -195,7 +199,7 @@ int main() {
 
 ### Visual Representation
 
-Let's assume `row = 3` and `col = 4`. The `visited` vector would look like this:
+Let’s assume `row = 3` and `col = 4`. The `visited` vector would look like this:
 
 ```
   Col0  Col1  Col2  Col3
@@ -240,6 +244,8 @@ Row2  false  false  false  false
   visited = [
     [false, false, false, false], // Row 0
     [false, false, false, false], // Row 1
+
+
     [false, false, false, false]  // Row 2
   ]
   ```
@@ -248,3 +254,5 @@ Row2  false  false  false  false
 The line of code `vector<vector<bool>> visited(row, vector<bool>(col, false));` efficiently creates a 2D vector with `row` rows and `col` columns, where each element is a boolean initialized to `false`. This structure is often used to keep track of visited states in grid-based problems.
 
 ![image](image_9.png)
+
+---
