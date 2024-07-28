@@ -12,7 +12,7 @@ int binarySearchNearlySortedArray(vector<int> arr, int target) {
     } else if (mid - 1 >= start && arr[mid - 1] == target) {
       // mid - 1 >= 0
       return mid - 1;
-    } else if (mid + 1 < end && arr[mid + 1] == target) {
+    } else if (mid + 1 <= end && arr[mid + 1] == target) {
       // mid + 1 < arr.size()
       return mid + 1;
     } else if (arr[mid] < target) {
