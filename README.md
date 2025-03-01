@@ -1,5 +1,5 @@
 # 30 Days of DSA 🚀
-![GSSoC '24 Mentor  7K+ Family @Linkedin  Mentor At @topmate io  Building @CryptoMinds  MERN Stack Web Developer  Web 3 0  Blockchain Developer  Career Counselor  Graphic Designer](https://github.com/user-attachments/assets/fbad9128-07fc-4118-b21f-7da0371384c1)
+
 
 ## 🌐 Socials:
 
