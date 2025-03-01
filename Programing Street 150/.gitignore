@@ -1,0 +1,7 @@
+# Ignore VS Code settings folder
+.vscode/
+
+# Ignore vscode folder inside Sprint 1
+Sprint 1/vscode/
+Sprint 2/vscode/
+Sprint 3/vscode/
