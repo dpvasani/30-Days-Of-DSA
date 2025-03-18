@@ -48,7 +48,7 @@ int main() {
   // Binary - Base 2
   // Everything Stored in Binary
   // Decimal To Binary
-  // Divison Method
+  // Division Method
   // 1. Divide by 2
   // 2. Keep the remainder
   // 3. Repeat until the number is 0
