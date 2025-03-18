@@ -137,7 +137,7 @@ int main() {
   // b = b >> 1;
   // cout << b << '\n';
 
-  // // pre / post -> increament / decreament operators
+  // // pre / post -> increment / decrement operators
   // Pahle Use karo Than Increment karo -> Post Increment
   // Pahle Use karo Than Increment karo -> Pre Increment
   // Pahle Decrement karo Than Use karo -> Pre Decrement
@@ -146,12 +146,12 @@ int main() {
   // int a = 11;
   // cout << a << '\n';
 
-  // // pre increament
+  // // pre increment
   // int a = 11;
   // cout << ++a << '\n';
   // cout << a << '\n';
 
-  // // pre increament
+  // // pre increment
   // int a = 11;
   // cout << a++ << '\n';
   // cout << a << '\n';
@@ -189,7 +189,7 @@ int main() {
   // cout << "Love" << '\n';
 
   // Break -> Exit From That Loop
-  // Continu -> Skip The Remaining Code Inside The Loop
+  // Continue -> Skip The Remaining Code Inside The Loop
 
   // // continue
   // int n = 5;
@@ -206,10 +206,10 @@ int main() {
   // // initialization
   // int b = 5;
 
-  // // updatation
+  // // updating
   // b = 10;
 
-  // // redefination is not allowed
+  //  // redefinition is not allowed
   // // int b = 15;
 
   // if (true) {
