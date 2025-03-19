@@ -13,7 +13,7 @@ int main() {
 
   for (int i = 0; i < size; i++) {
     if (arr[i] > mex) {
-      // Found Number Greator Than MIN_INT,  Update Mex
+      // Found Number Greater Than MIN_INT,  Update Mex
       mex = arr[i];
     }
   }

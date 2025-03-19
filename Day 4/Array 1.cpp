@@ -19,15 +19,15 @@ void inc(int arr[], int size) {
 
 int main() {
 
-  // Data Structure to store similer item - > Samee DataType
-  // Continous Memory Location
+  // Data Structure to store similar item - > Same DataType
+  // Continuous Memory Location
   // Use Case
   // For Multiple Same Kind Of Data
   // int a[3000] -> 3000 Variable are ready to use
 
-  // Continueous Memroy allocation
+  // Continuous Memory allocation
   // Memory Wastages
-  // If Needable Memory Is Present But Not in Continueous Way
+  // If Needble Memory Is Present But Not in Continuous Way
   // Symbol Table  -> Mapping of that Memory Location
   // int a -> A
   // int arr -> A1
@@ -85,9 +85,9 @@ int main() {
   // Passed By Value -> Copy Creation
   // Two Concept
   // 1. Pass By Value -> Change In Copied Value
-  // 2. Pass By Reference -> Change in Actuall Value
+  // 2. Pass By Reference -> Change in Actual Value
   // In Array -> Pass By Reference -> Always
-  // Updation In Actuall Array
+  // Updating In Actual Array
   // Always Pass Size Alongwith Array -> Best Practice
   // sizeof(arr) -> Size of Array in Bytes -> How Much SPace Occupied By Array
   // That Shows That How Much Memory is Allocated

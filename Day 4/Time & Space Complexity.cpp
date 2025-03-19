@@ -3,17 +3,17 @@ using namespace std;
 int main() {
 
   // Time And Space Complexity
-  // Amount oF time taken by an algorithem to rurn function of length of input
+  // Amount oF time taken by an algorithm to run function of length of input
   // Not Actual TIme
-  // It Define CPU timem
+  // It Define CPU time
   // Use Cases:
   // To make efficient Programs
-  // Ask By Intervier After Evry Solution You Give
+  // Ask By Interviewer After Every Solution You Give
 
-  // Spcae
-  // Amount Of Space Taken By Algo as Functiion Of Lenfth of Input
+  // Space
+  // Amount Of Space Taken By Algo as Function Of Length of Input
   // Big O Notation -> Upper Bound -> Worst Case
-  // Theta  θ -> Avrage Case
+  // Theta  θ -> Average Case
   // Omega Ω -> Lower Case -> Best Case
   // O(1) -> Constant Time
   // O(n) -> Linear Time
@@ -21,7 +21,7 @@ int main() {
   // O(2^n) -> Exponential Time
   // O(n!) -> Factorial Time
   // O(n^n) -> Polynomial Time
-  // O(log2n) -> Logarithem Time
+  // O(log2n) -> Logarithm Time
   // O(n^3) -> Cubic Time
   // Nesting {
   //   {
