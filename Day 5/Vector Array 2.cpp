@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 
-  // Vector Dynamiic Array -> SIze Is Not Fixed -> Default Size 0 Whenever
+  // Vector Dynamic Array -> SIze Is Not Fixed -> Default Size 0 Whenever
   // more size is required it make the doubled size like if 2 size filled than
   // it make itself 4 than 8 and so on.
   // Pass By Value In Function
@@ -37,7 +37,7 @@ int main() {
   // cin >> n;
   // vector<int>(n);
   // int ans = (sizeof(arr) / sizeof(int));
-  // Defference Between Size And Capacity
+  // Deference Between Size And Capacity
   // int arr[10] = {1, 2, 3, 4, 5, 6, 7};
   // size = 7 , capacity = 10
 
