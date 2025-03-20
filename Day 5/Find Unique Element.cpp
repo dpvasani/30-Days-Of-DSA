@@ -14,7 +14,7 @@ int findUniqueElement(vector<int> arr) {
 }
 
 int main() {
-  // All Element Except One Element are Occuring Twice
+  // All Element Except One Element are Occurring Twice
   int n;
   cin >> n;
   vector<int> arr(n);
@@ -23,7 +23,7 @@ int main() {
   }
 
   int uniqueElement = findUniqueElement(arr);
-  cout << "Unnique Element Is : " << uniqueElement << endl;
+  cout << "Unique Element Is : " << uniqueElement << endl;
 
   return 0;
 }
